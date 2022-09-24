@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #43271A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    font-family: Tahoma;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 40%;
+    background-color: #DBB09C;
+}
+.right{
+    width: 60%;
+    background-color: #FFE3D4;
+    height: 700px;
+}
+footer{
+    display: flex;
+    background-color: #40281A;
+    color: white;
+    justify-content: right;
+}
+table{
+    border: dashed 1px brown;
+    width: 500px;
+}
+td{
+    border: dashed 1px brown;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    height: 270px;
+    width: 220px;
+    padding: 30px;
+}
+
+
